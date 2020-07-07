@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="calculator">
+        <div class="screen">
+            <div class="result">
+            </div>
+        </div>
+        <div class="keyboard">
+            <div class="row">
+                <div class="item width50 greyBorder">C</div>
+                <div class="item width25 greyBorder">←</div>
+                <div class="item width25 orangeBorder">/</div>
+            </div>
+            <div class="row">
+                <div class="item width25 greyBorder">7</div>
+                <div class="item width25 greyBorder">8</div>
+                <div class="item width25 greyBorder">9</div>
+                <div class="item width25 orangeBorder">*</div>
+            </div>
+            <div class="row">
+                <div class="item width25 greyBorder">4</div>
+                <div class="item width25 greyBorder">5</div>
+                <div class="item width25 greyBorder">6</div>
+                <div class="item width25 orangeBorder">-</div>
+            </div>
+            <div class="row">
+                <div class="item width25 greyBorder">1</div>
+                <div class="item width25 greyBorder">2</div>
+                <div class="item width25 greyBorder">3</div>
+                <div class="item width25 orangeBorder">+</div>
+            </div>
+            <div class="row">
+                <div class="item width50 greyBorder">0</div>
+                <div class="item width25 greyBorder">.</div>
+                <div class="item width25 orangeBorder">=</div>
+            </div>
+        </div>
+    </div>
+    <script src="./calculations.js"></script>
 </body>
 </html>
